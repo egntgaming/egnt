@@ -1,0 +1,82 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+	
+
+
+.header1{
+	background: #ff3b41;
+}
+
+.header2{
+	background: #ff3b41;
+}
+
+.content-1{
+	text-align: center;
+	color: #fff;
+	
+}
+
+.content-1 h1{
+	background: #fff;
+	color: #ff3b41;
+
+}
+
+.loki{
+	padding-top: 10px;
+	width: 100%;
+}
+
+.greenhighlight{
+	font-weight: 700;
+	background: #fff;
+	border: 1px solid #fff;
+	color: #ff3b41;
+}
+
+
+
+.downloadbtn{
+	padding: 10px;
+	text-decoration: none;
+	
+}
+
+.downloadbtn h3{
+	border-radius: 5px;
+	text-align: center;
+	font-size: 30px;
+	width: 200px;
+	background: #8707e8;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    border: 1px solid #fff;
+	
+}
+
+.fas{
+	color: #fff;
+	background: #e00215;
+	padding: 10px;
+	border: 1px solid #fff;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.sback{
+	background: #e00215;
+}
+
+@media only screen and (min-width: 1000px){
+
+	.loki{
+		width: 50%;
+	}
+}

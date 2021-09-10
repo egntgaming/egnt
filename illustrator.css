@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+	background: #ff3b41;
+}
+
+.xop-section {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 6% 2%;
+}
+
+.xop-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after, .xop-box:before {
+	content: '';
+	display: table;
+}
+
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+
+.xop-img-1 {
+	background:url(images/photoshop.jpg);
+	background-size: cover;
+}
+
+.xop-img-2 {
+	background: url(images/illustrator.jpg);
+	background-size: cover;
+}
+
+.xop-img-3 {
+	background: url(images/videos.jpg);
+	background-size: cover;
+}
+
+.xop-img-4 {
+	background: url(images/comic.jpg);
+	background-size: cover;
+}
+
+.xop-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+
+.xop-info h3 {
+	font-weight: 700;
+	color: #ff3b41;
+	background: #fff;
+	width: 328px;
+	font-size: 42px;
+	text-align: center;
+}
+
+.xop-info p {
+	
+	color: #fff;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 2;
+
+
+}
+
+.egnt-info{
+	font-size: 50px;
+	text-align: center;
+	padding-top: 10px;
+	color: #ffff;
+}
+.minion{
+	width: 300px;
+	position: absolute;
+
+}
+
+@media(max-width: 700px){
+
+	.minion{
+		width: 150px;
+		position: absolute;
+		top: 50px;
+	}
+
+
+}
