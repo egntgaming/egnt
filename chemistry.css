@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+.title{
+	text-align: center;
+}
+
+.title h1{
+	font-weight: 500;
+	background-color: #ff003c;
+	padding: 10px;
+	color: #fff;
+}
+.title h2{
+	color: #000;
+	background-color: #fff200;
+	padding: 10px;
+}
+
+
+.chapters h1{
+	margin: auto;
+	padding: 10px;
+	color: #fff;
+	background-color: #ff003c;
+	font-weight: 350;
+}
